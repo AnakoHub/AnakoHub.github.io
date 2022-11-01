@@ -1,0 +1,37 @@
+/*
+main.scss
+--------
+Par Anaël Akouété
+*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	height: 100%;
+}
+
+.nav-bar {
+	overflow: hidden;
+	background-color: #f764e1;
+	p {
+		background-color: aqua;
+		float: left;
+	}
+	a {
+		display: block;
+		width: 10%;
+		float: right;
+		text-decoration: none;
+		text-align: center;
+		color: aliceblue;
+		&:hover {
+			background-color: red;
+		}
+	}
+	
+}
+

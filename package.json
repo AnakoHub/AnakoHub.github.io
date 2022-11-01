@@ -1,0 +1,14 @@
+{
+  "name": "openclassroom",
+  "version": "1.0.0",
+  "description": "cv website",
+  "main": "index.js",
+  "scripts": {
+     "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "author": "Anaël Akouété",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}

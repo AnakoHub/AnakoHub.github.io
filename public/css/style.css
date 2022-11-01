@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*
+main.scss
+--------
+Par Anaël Akouété
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+}
+
+.nav-bar {
+  overflow: hidden;
+  background-color: #f764e1;
+}
+.nav-bar p {
+  background-color: aqua;
+  float: left;
+}
+.nav-bar a {
+  display: block;
+  width: 10%;
+  float: right;
+  text-decoration: none;
+  text-align: center;
+  color: aliceblue;
+}
+.nav-bar a:hover {
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
